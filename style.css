@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    box-sizing: content-box;
+}
+
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.pads{
+    display:flex;
+    width: 100%;
+
+}
+.pads>div{
+    height:100px;
+    width: 100px;
+    flex-direction: row;
+    flex:1;
+    
+}
+.pad1{
+    background-color: orange;
+}
+.pad2{
+    background-color:lightcoral;
+}
+.pad3{
+    background-color: lightgreen;
+}
+.pad4{
+    background-color: lightseagreen;
+}
+.pad5{
+    background-color:yellow;
+}
+.pad6{
+    background-color:purple;
+}
